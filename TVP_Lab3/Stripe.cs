@@ -38,11 +38,6 @@ namespace TVP_Lab3
             return this.rect.IntersectsWith(stripe.GetRectangle());
         }
 
-        public void Rotate()
-        {
-            (this.rect.Width, this.rect.Height) = (this.rect.Height, this.rect.Width);
-        }
-
         public Rectangle GetRectangle()
         {
             return this.rect;
